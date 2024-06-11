@@ -1,4 +1,5 @@
 //Exercise 1: Numbers
+console.log("Exercise 1: Numbers:");
 let num1 = 6;
 let num2 = 2.5;
 let num3 = 2;
@@ -22,6 +23,7 @@ console.log(modulus);
 console.log(exponentiation);
 
 //Exercise 2: Boolean and Operators
+console.log("Exercise 2: Boolean and Operators:");
 //1
 let q = 10;
 let w = 15;

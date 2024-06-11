@@ -1,4 +1,6 @@
 //Exercise 1: Temperature check
+console.log("Exercise 1: Temperature check:");
+
 let temperature = 13;
 
 if (temperature <= 0) {
@@ -27,6 +29,7 @@ switch (true) {
 }
 
 //Exercise 2: Divisibility Check
+console.log("Exercise 2: Divisibility Check:");
 
 let num = 9;
 if (num % 2 == 0 && num % 3 == 0) {
@@ -55,6 +58,7 @@ switch (true) {
 }
 
 //Exercise 3: For loops
+console.log("Exercise 3: For loops:");
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
@@ -91,6 +95,7 @@ for (let l = 0; l < numbers2.length; l++) {
 console.log(largest);
 
 //Exercise 4: While loops
+console.log("Exercise 4: While loops:");
 let z = 1;
 while (z <= 10) {
   console.log(z);
@@ -98,8 +103,11 @@ while (z <= 10) {
 }
 
 let e = 1;
-while (e > 1 && e < 20) {
-  console.log(e);
+while (e < 20) {
+  if (e % 2 == 0) {
+    console.log(e);
+  }
+
   e++;
 }
 
@@ -121,6 +129,7 @@ while (f < 50) {
 }
 
 //Exercise 5: Do While loops
+console.log("Exercise 5: Do While loops");
 let d = 1;
 
 do {

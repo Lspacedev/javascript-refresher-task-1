@@ -1,4 +1,5 @@
 //Exercise 1: Variable Declaration
+console.log("Exercise 1: Variable Declaration:");
 
 let name = "Tshepo Mpogeng";
 let age = 23;
@@ -9,6 +10,8 @@ console.log(age);
 console.log(isStudent);
 
 //Exercise 2: Variable Reassignment
+console.log("Exercise 2: Variable Reassignment:");
+
 let favoriteColour = "Black";
 console.log(favoriteColour);
 
@@ -16,6 +19,8 @@ favoriteColour = "Blue";
 console.log(favoriteColour);
 
 //Exercise 3: Arithmetic Operations
+console.log("Exercise 3: Arithmetic Operations:");
+
 let num1 = 3;
 let num2 = 9;
 let sum = num1 + num2;
